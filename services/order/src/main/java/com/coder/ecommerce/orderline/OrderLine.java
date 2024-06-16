@@ -11,6 +11,7 @@ import lombok.*;
 @Getter
 @Setter
 @Entity
+@Table(name = "customer_line")
 public class OrderLine {
     @Id
     @GeneratedValue
